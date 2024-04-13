@@ -3,7 +3,7 @@ id: marcias-postgres
 name: PostgreSQL
 tagline: Baza danych
 icon: https://marcias.pl/umbrel/notepad.png
-category: Office
+category: marciasmedia
 version: "free"
 port: 5432
 description: >-
