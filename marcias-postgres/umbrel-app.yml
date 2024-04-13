@@ -5,7 +5,7 @@ tagline: Baza danych
 icon: https://marcias.pl/umbrel/notepad.png
 category: Office
 version: "free"
-port: 5230
+port: 5432
 description: >-
   Add your app's description here.
 
