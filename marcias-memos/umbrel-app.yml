@@ -3,7 +3,7 @@ id: marcias-memos
 name: Memos Note
 tagline: Super notatnik Memos
 icon: https://marcias.pl/umbrel/notepad.png
-category: Office
+category: marciasmedia
 version: "free"
 port: 5230
 description: >-
