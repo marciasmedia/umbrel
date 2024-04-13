@@ -1,1 +1,30 @@
+manifestVersion: 1
+id: marcias-postgres
+name: PostgreSQL
+tagline: Baza danych
+icon: https://marcias.pl/umbrel/notepad.png
+category: Office
+version: "free"
+port: 5230
+description: >-
+  Add your app's description here.
 
+
+  You can also add newlines!
+
+developer: Marciasmedia
+website: https://umbrel.com
+submitter: Umbrel
+submission: https://github.com/usememos/memos
+repo: https://github.com/usememos/memos
+support: https://github.com/usememos/memos
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
