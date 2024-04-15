@@ -1,14 +1,10 @@
-
-version: '3.9'
-
+version: '3.5'
 services:
-  postgres:
-    image: postgres:14-alpine
+  koodo:
+    container_name: koodo
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 5432:5432
-    volumes:
-      - ~/apps/postgres:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_PASSWORD=S3cret
-      - POSTGRES_USER=citizix_user
-      - POSTGRES_DB=citizix_db
+      - "80:80/tcp"
+    restart: unless-stopped
