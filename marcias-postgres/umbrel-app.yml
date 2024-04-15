@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: marcias-postgres
-name: PostgreSQL
+name: Koodo
 tagline: Baza danych
 icon: https://marcias.pl/umbrel/base.png
 category: marciasmedia
