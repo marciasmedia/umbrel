@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+    sytone:
+        image: 'ghcr.io/sytone/obsidian-remote:latest'
+        ports:
+            - '8080:8080'
+        volumes:
+            - '/pathonhosttostoreinternalobsidian/config:/config'
+            - '/pathonhosttostoreyour/vaults:/vaults'
+        tty: true
+        stdin_open: true
