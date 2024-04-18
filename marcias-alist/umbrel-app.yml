@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: marcias-alist
 name: Alist
-tagline: Menager Files
+tagline: Manager Files
 icon: https://svgur.com/i/mvA.svg
 category: Marciasmedia
 version: "1.0.0"
