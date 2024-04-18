@@ -2,8 +2,8 @@ manifestVersion: 1
 id: marcias-alist
 name: Alist
 tagline: Manager Files
-icon: https://svgur.com/i/mvA.svg
-category: Marciasmedia
+icon: http://marcias.pl/umbrel/alist.png
+category: marciasmedia
 version: "1.0.0"
 port: 5244
 description: >-
