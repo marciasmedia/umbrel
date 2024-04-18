@@ -3,7 +3,7 @@ id: marcias-alist
 name: Alist
 tagline: Menager Files
 icon: https://svgur.com/i/mvA.svg
-category: Development
+category: Marciasmedia
 version: "1.0.0"
 port: 5244
 description: >-
