@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-it-tools
 name: IT Tools
 tagline: Narzedzie dla informatykow
-icon: http://marcias.pl/umbrel/alist.png
+icon: http://marcias.pl/umbrel/it-tools.png
 category: marciasmedia
 version: "1.0.0"
 port: 8080
