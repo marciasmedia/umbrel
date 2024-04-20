@@ -1,12 +1,12 @@
-channels-dvr:
-  image: fancybits/channels-dvr:latest
-  container_name: channels-dvr
-  network_mode: host
-  ports:
-    - "8089:8089"
-  restart: on-failure:10
-  devices:
-    - /dev/dri:/dev/dri
-  volumes:
-    - /mnt/disk/dvr/config:/channels-dvr
-    - /mnt/disk/dvr/recordings:/shares/DVR
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: marcias-channels_server_1
+      APP_PORT: 8089
+    
+  server:
+    image: fancybits/channels-dvr:latest
+    user: "1000:1000"
+    init: true
