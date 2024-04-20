@@ -1,16 +1,12 @@
-version: '3.3'
+version: "3.3"
 services:
-  alist:
-    restart: always
-    volumes:
-      - '/etc/alist:/opt/alist/data'
-    ports:
-      - '5244:5244'
-      - '5245:5245'
+  app_proxy:
     environment:
-      - PUID=0
-      - PGID=0
-      - UMASK=022
-      - TZ=UTC
-    container_name: alist
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: marcias-alist_server_1
+      APP_PORT: 5244
+    
+  server:
     image: 'xhofe/alist:latest'
+    user: "1000:1000"
+    init: true
