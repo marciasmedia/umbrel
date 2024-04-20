@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-fusion
 name: HA Fusion
 tagline: Best interface in homeassistant
-icon: https://svgur.com/i/mvA.svg
+icon: http://marcias.pl/umbrel/fusion.png
 category: marciasmedia
 version: "1.0.0"
 port: 5050
