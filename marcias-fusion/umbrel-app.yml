@@ -7,10 +7,9 @@ category: marciasmedia
 version: "1.0.0"
 port: 5050
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
+  PRE-BETA
+  The current state of this project is pre-beta. This means that there's basic functionality missing, incomplete features and unresolved issues. 
+  General feedback, bug reports and feature requests are welcome!
 
 developer: Matt8707
 website: https://github.com/matt8707/ha-fusion
