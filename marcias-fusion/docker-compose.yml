@@ -1,0 +1,13 @@
+services:
+  ha-fusion:
+    container_name: ha-fusion
+    image: ghcr.io/matt8707/ha-fusion
+    volumes:
+      - /path/to/ha-fusion:/app/data
+    network_mode: bridge
+    ports:
+      - 5050:5050
+    environment:
+      TZ: Europe/Warsaw
+      HASS_URL: http://10.0.1.2:8123
+    restart: always
