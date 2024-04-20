@@ -19,9 +19,9 @@ submission: https://github.com/matt8707/ha-fusion
 repo: https://github.com/matt8707/ha-fusion
 support: https://github.com/matt8707/ha-fusion
 gallery:
-  - http://marcias.pl/umbrel/fusion-gallery-1.jpeg
-  - http://marcias.pl/umbrel/fusion-gallery-2.jpeg
-  - http://marcias.pl/umbrel/fusion-gallery-3.jpeg
+  - http://marcias.pl/umbrel/fusion-gallery-1.jpg
+  - http://marcias.pl/umbrel/fusion-gallery-2.jpg
+  - http://marcias.pl/umbrel/fusion-gallery-3.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
