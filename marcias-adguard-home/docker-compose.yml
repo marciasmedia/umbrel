@@ -13,7 +13,7 @@ services:
       - "68:68/udp"
       - "853:853/tcp"
       - "3000:3000/tcp"
-      - "8088:80/tcp"
+      - "80:8088/tcp"
       - "6443:443/tcp"
     volumes:
       - ./data:/opt/adguardhome/work
