@@ -13,7 +13,7 @@ website: https://adguard.com/en/adguard-home/overview.html
 dependencies: []
 repo: https://github.com/AdguardTeam/AdguardHome
 support: https://github.com/AdguardTeam/AdguardHome/issues
-port: 7200
+port: 8088
 gallery:
   - https://i.imgur.com/gtLjT0L.png
 path: ""
