@@ -1,3 +1,24 @@
+version: "3.1"
+services:
+  threadfin:
+    container_name: threadfin
+    environment:
+      - PGID=1000
+      - PUID=1000
+      - TZ=America/New_York
+    image: fyb3roptik/threadfin:latest
+    ports:
+      - "30044:34400" # Web Interface Port
+    volumes:
+      - "/home/nostradamus/dockers/threadfin:/home/threadfin/conf"
+      - "/home/nostradamus/dockers/threadfin/temp:/tmp/xteve:rw"
+    restart: unless-stopped
+
+
+
+
+
+
 services:
   postgres:
     container_name: postgres
