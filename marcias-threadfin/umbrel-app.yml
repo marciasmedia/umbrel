@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: marcias-postgres
-name: Baza Postres
+id: marcias-threadfin
+name: Threadfin
 tagline: Baza danych
 icon: https://marcias.pl/umbrel/notepad.png
 category: marciasmedia
 version: "free"
-port: 5858
+port: 30044
 description: >-
   Add your app's description here.
 
