@@ -7,10 +7,9 @@ category: marciasmedia
 version: "1.0.0"
 port: 5244
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
+  Aby ustawic wlasne haslo, nalezy wpisac w terminalu aplikacji komende 
+  ./alist admin set NEW_PASSWORD
+  I to wszystko. Do dziela.
 
 developer: Marciasmedia
 website: https://github.com/alist-org/alist
