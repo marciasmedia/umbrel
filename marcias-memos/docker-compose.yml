@@ -3,7 +3,7 @@ services:
     memos:
         image: 'neosmemo/memos:stable'
         volumes:
-            - /data/:/var/opt/memos'
+          - ${APP_DATA_DIR}/data/:/var/opt/memos'
         ports:
             - '5230:5230'
         container_name: memos
