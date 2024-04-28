@@ -3,7 +3,7 @@ services:
   alist:
     restart: always
     volumes:
-      - '/etc/alist:/opt/alist/data'
+      - ${APP_DATA_DIR}/data/alist:/opt/alist/data'
     ports:
       - '5244:5244'
       - '5245:5245'
