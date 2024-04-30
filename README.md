@@ -1,36 +1,5 @@
 
-Skip to content
 
-    marciasmedia
-    /
-    umbrell-app
-
-Code
-Issues
-Pull requests
-Projects
-Security
-Insights
-
-    Settings
-
-Commit
-Add files via upload
-
-    main 
-
-@marciaskosz
-marciaskosz committed Apr 6, 2024
-0 parents commit d074338
-Showing 3 changed files with 42 additions and 0 deletions.
-
-1 change: 1 addition & 0 deletions 1
-.gitignore
-@@ -0,0 +1 @@
-.DS_Store
-39 changes: 39 additions & 0 deletions 39
-README.md
-@@ -0,0 +1,39 @@
 ## Umbrel Community App Store Template
 
 This repository is a template to create an Umbrel Community App Store. These additional app stores allow developers to distribute applications without submitting to the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps).
