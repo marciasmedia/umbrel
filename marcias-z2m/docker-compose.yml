@@ -9,7 +9,7 @@ services:
       - /run/udev:/run/udev:ro
     ports:
       # Frontend port
-      - 8087:8080
+      - 8080:8080
     environment:
       - TZ=Europe/Berlin
     devices:
