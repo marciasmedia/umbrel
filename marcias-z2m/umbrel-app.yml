@@ -5,7 +5,7 @@ tagline: Zigbe Z2M
 icon: https://marcias.pl/umbrel/notepad.png
 category: marciasmedia
 version: "free"
-port: 8080
+port: 9001
 description: >-
   Add your app's description here.
 
