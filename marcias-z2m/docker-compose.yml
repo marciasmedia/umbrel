@@ -1,17 +1,14 @@
-version: '3.8'
+version: "3.7"
+
 services:
-  zigbee2mqtt:
-    container_name: zigbee2mqtt
-    image: koenkk/zigbee2mqtt
+  mosquitto:
+    image: eclipse-mosquitto
+    hostname: mosquitto
+    container_name: mosquitto
     restart: unless-stopped
-    volumes:
-      - ${APP_DATA_DIR}/data:/app/data
-      - ${APP_DATA_DIR}/run/udev:/run/udev:ro
     ports:
-      # Frontend port
-      - 8080:8080
-    environment:
-      - TZ=Europe/Warsaw
-    devices:
-      # Make sure this matched your adapter location
-      - /dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_6c007fbc91e5ed11b51e606262c613ac-if00-port0:/dev/ttyACM0
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto:/etc/mosquitto
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
