@@ -14,4 +14,4 @@ services:
       - TZ=Europe/Warsaw
     devices:
       # Make sure this matched your adapter location
-      - /dev/serial/by-id/usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B0018ED3DDF-if00:/dev/ttyACM0
+      - /dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_6c007fbc91e5ed11b51e606262c613ac-if00-port0:/dev/ttyACM0
