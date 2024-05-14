@@ -10,5 +10,5 @@ services:
       - "1883:1883"
       - "9001:9001"
     volumes:
-      - ./mosquitto:/etc/mosquitto
-      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ${APP_DATA_DIR}/mosquitto:/etc/mosquitto
+      - ${APP_DATA_DIR}/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
