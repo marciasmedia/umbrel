@@ -5,7 +5,7 @@ tagline: homeassistant mqtt
 icon: http://marcias.pl/umbrel/it-tools.png
 category: marciasmedia
 version: "1.0.0"
-port: 8087
+port: 8080
 description: >-
   Add your app's description here.
 
