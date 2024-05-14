@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: marcias-z2m
+name: Zigbee MQTT
+tagline: homeassistant mqtt
+icon: http://marcias.pl/umbrel/it-tools.png
+category: marciasmedia
+version: "1.0.0"
+port: 8087
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Marciasmedia
+website: https://umbrel.com
+submitter: IT Tools
+submission: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
+repo: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
+support: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
