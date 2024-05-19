@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: marcias-z2m
-name: Zigbee MQTT
+id: marcias-pdf
+name: Stirling PDF
 tagline: Zigbe Z2M
 icon: https://marcias.pl/umbrel/notepad.png
 category: marciasmedia
 version: "free"
-port: 9001
+port: 8080
 description: >-
   Add your app's description here.
 
