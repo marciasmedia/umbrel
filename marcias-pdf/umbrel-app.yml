@@ -7,12 +7,10 @@ category: marciasmedia
 version: "free"
 port: 8080
 description: >-
-Jest to solidne, lokalnie hostowane, internetowe narzędzie do manipulacji plikami PDF przy użyciu Dockera. 
-Umożliwia wykonywanie różnych operacji na plikach PDF, w tym dzielenie, łączenie, konwertowanie, reorganizowanie, dodawanie obrazów, obracanie, kompresowanie i inne. 
-Ta lokalnie hostowana aplikacja internetowa ewoluowała, aby objąć kompleksowy zestaw funkcji spełniających wszystkie wymagania dotyczące plików PDF.
-Stirling PDF nie inicjuje żadnych połączeń wychodzących w celach rejestracyjnych lub śledzenia. Wszystkie pliki i pliki PDF istnieją wyłącznie po stronie klienta, 
-znajdują się w pamięci serwera tylko podczas wykonywania zadania lub tymczasowo znajdują się w pliku wyłącznie w celu wykonania zadania. 
-Każdy plik pobrany przez użytkownika zostanie do tego momentu usunięty z serwera. 
+Add your app's description here.
+
+
+  You can also add newlines!
 
 developer: Marciasmedia
 website: https://umbrel.com
