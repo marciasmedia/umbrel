@@ -9,7 +9,7 @@ services:
       - 580:580
       - 5443:5443
     volumes:
-      - /opt/deCONZ:/opt/deCONZ
+      - ${APP_DATA_DIR}/opt/deCONZ:/opt/deCONZ
     devices:
       - /dev/ttyUSB0 # This is the USB device that Conbee II is running on.
     environment:
