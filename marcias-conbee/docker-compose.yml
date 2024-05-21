@@ -1,0 +1,21 @@
+version: "2"
+services:
+  deconz:
+    image: deconzcommunity/deconz
+    container_name: deconz
+    restart: always
+    ports:
+      - 8585:8585
+      - 6443:6443
+    volumes:
+      - ${APP_DATA_DIR}/opt/deconz:/opt/deCONZ
+    devices:
+      - /dev/ttyUSB0
+    environment:
+      - DECONZ_WEB_PORT=8585
+      - DECONZ_WS_PORT=6443
+      - DEBUG_INFO=1
+      - DEBUG_APS=0
+      - DEBUG_ZCL=0
+      - DEBUG_ZDP=0
+      - DEBUG_OTA=0

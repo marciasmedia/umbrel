@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: marcias-conbee
+name: Deconz Software
+tagline: Zigbee Gateway
+icon: https://marcias.pl/umbrel/stirling-pdf.png
+category: marciasmedia
+version: "free"
+port: 8585
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Marciasmedia
+website: https://umbrel.com
+submitter: Umbrel
+submission: https://github.com/Stirling-Tools/Stirling-PDF
+repo: https://github.com/Stirling-Tools/Stirling-PDF
+support: https://github.com/Stirling-Tools/Stirling-PDF
+gallery:
+  - https://marcias.pl/umbrel/stirling_pdf-1.jpg
+  - https://marcias.pl/umbrel/stirling_pdf-2.jpg
+  - https://marcias.pl/umbrel/stirling_pdf-3.jpg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
