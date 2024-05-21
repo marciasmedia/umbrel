@@ -9,7 +9,7 @@ services:
       - 6443:6443
     volumes:
       - ${APP_DATA_DIR}/opt/deconz:/opt/deCONZ
-    network_mode: bridge
+    network_mode: host
     devices:
       - /dev/ttyUSB0
     environment:
