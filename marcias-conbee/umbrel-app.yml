@@ -5,7 +5,7 @@ tagline: Zigbee Gateway
 icon: https://marcias.pl/umbrel/stirling-pdf.png
 category: marciasmedia
 version: "free"
-port: 8585
+port: 580
 description: >-
   Add your app's description here.
 
