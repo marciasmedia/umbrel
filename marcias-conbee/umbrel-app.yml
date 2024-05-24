@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-conbee
 name: Deconz
 tagline: Zigbee Gateway
-icon: https://marcias.pl/umbrel/stirling-pdf.png
+icon: https://marcias.pl/umbrel/conbee.png
 category: marciasmedia
 version: "free"
 port: 580
