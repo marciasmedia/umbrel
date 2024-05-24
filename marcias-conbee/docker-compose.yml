@@ -2,6 +2,7 @@ version: "3"
 services:
   deconz:
     image: deconzcommunity/deconz:stable
+    network_mode: host
     container_name: deconz
     restart: always
     privileged: true # This is important! Without it, the deCONZ image won't be able to connect to Conbee II.
