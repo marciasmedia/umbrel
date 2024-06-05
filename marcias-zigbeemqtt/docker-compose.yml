@@ -13,6 +13,6 @@ services:
       - TZ=Europe/Warsaw
     devices:
       # Make sure this matched your adapter location
-      - /dev/ttyUSB0
+      - /dev/zigbee:/dev/ttyUSB0
 
 
