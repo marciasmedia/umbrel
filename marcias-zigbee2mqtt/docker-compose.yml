@@ -15,3 +15,7 @@ services:
     devices:
       # Make sure this matched your adapter location
       - /dev/ttyUSB0
+    group_add:
+      - dialout
+    user: 1000:1000
+
