@@ -2,7 +2,7 @@ version: '3.8'
 services:
   zigbee2mqtt:
     container_name: zigbee2mqtt
-    image: koenkk/zigbee2mqtt
+    image: koenkk/zigbee2mqtt:latest
     restart: unless-stopped
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
