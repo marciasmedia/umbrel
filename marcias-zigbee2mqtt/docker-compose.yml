@@ -9,7 +9,7 @@ services:
       - ${APP_DATA_DIR}/run/udev:/run/udev:ro
     ports:
       # Frontend port
-      - 8080:8080
+      - 8085:8080
     environment:
       - TZ=Europe/Warsaw
     devices:
