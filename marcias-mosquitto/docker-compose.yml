@@ -3,7 +3,6 @@ version: "3.7"
 services:
   mosquitto:
     image: eclipse-mosquitto
-    hostname: mosquitto
     container_name: mosquitto
     restart: unless-stopped
     ports:
