@@ -5,7 +5,7 @@ tagline: Best Zigbbe Device
 icon: https://marcias.pl/umbrel/notepad.png
 category: marciasmedia
 version: "free"
-port: 8080
+port: 8585
 description: >-
   Add your app's description here.
 
