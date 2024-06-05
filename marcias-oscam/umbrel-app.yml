@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: marcias-mosquitto
-name: Broker eclipse-mosquitto
-tagline: Best Broker Mqtt
+id: marcias-oscam
+name: TV SAT
+tagline: oscam lines 
 icon: https://marcias.pl/umbrel/notepad.png
 category: marciasmedia
 version: "free"
-port: 9001
+port: 8888
 description: >-
   Add your app's description here.
 
