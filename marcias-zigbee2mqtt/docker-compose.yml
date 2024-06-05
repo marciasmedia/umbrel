@@ -3,13 +3,13 @@ services:
   zigbee2mqtt:
     container_name: zigbee2mqtt
     image: koenkk/zigbee2mqtt:latest
-    restart: unless-stopped
+    restart: always
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
-      - ${APP_DATA_DIR}/run/udev:/run/udev:ro
+      - ${APP_DATA_DIR}/run/udev:/run/udev
     ports:
       # Frontend port
-      - 8585:8080
+      - 8080:8080
     environment:
       - TZ=Europe/Warsaw
     devices:
