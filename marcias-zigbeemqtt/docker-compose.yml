@@ -13,6 +13,5 @@ services:
       - TZ=Europe/Warsaw
     devices:
       # Make sure this matched your adapter location
-      - /dev/serial/by-id/usb-ITEAD_SONOFF_Zigbee_3.0_USB_Dongle_Plus_V2_20240104195043-if00:/dev/ttyUSB0
-
+      - /dev/serial/by-id/usb-ITEAD_SONOFF_Zigbee_3.0_USB_Dongle_Plus_V2_20240104195043-if00:/dev/ttyACM0
 
