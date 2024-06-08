@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: marcias-oscam
-name: TV SAT
-tagline: oscam lines 
+id: marcias-nodered
+name: Nodered Standalone
+tagline: smart home automations
 icon: https://marcias.pl/umbrel/notepad.png
 category: marciasmedia
 version: "free"
-port: 8888
+port: 1880
 description: >-
   Add your app's description here.
 
