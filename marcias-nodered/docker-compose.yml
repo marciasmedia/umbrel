@@ -3,9 +3,9 @@ version: "3.7"
 services:
   node-red:
     image: nodered/node-red:latest
+    network_mode: host
     environment:
       - TZ=Europe/Warsaw
-    network_mode: host  
     ports:
       - "1880:1880"
     volumes:
