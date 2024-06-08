@@ -5,6 +5,7 @@ services:
     image: nodered/node-red:latest
     environment:
       - TZ=Europe/Warsaw
+    network_mode: host  
     ports:
       - "1880:1880"
     volumes:
