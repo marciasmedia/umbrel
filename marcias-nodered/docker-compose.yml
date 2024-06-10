@@ -4,10 +4,10 @@ services:
     image: nrchkb/node-red-homekit
     restart: always
     network_mode: host
+    ports:
+      - "1880:1880"  
     environment:
       - TZ=Europe/Amsterdam
       - DEBUG=NRCHKB:*
-    ports:
-      - "1880:1880"  
     volumes:
       - ${APP_DATA_DIR}/data:/data
