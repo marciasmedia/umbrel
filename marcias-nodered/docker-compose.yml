@@ -1,11 +1,10 @@
 version: '2'
 services:
-  node-red:
-    image: nodered/node-red:latest
-    restart: always
+   nodered:
+    image: drjp81/nodered:latest
+    restart: unless-stopped
+    container_name: nodered
     network_mode: host
-    ports:
-      - "1880:1880"  
     environment:
       - TZ=Europe/Warsaw
     volumes:
