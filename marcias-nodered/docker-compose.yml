@@ -7,7 +7,6 @@ services:
     ports:
       - "1880:1880"  
     environment:
-      - TZ=Europe/Amsterdam
-      - DEBUG=NRCHKB:*
+      - TZ=Europe/Warsaw
     volumes:
       - ${APP_DATA_DIR}/data:/data
