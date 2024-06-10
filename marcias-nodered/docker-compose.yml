@@ -1,12 +1,11 @@
-version: "3.7"
-
+version: '2'
 services:
-  node-red:
-    image: nodered/node-red:latest
+  node-red-homekit:
+    image: nrchkb/node-red-homekit
+    restart: always
     network_mode: host
     environment:
-    TZ: "Europe/Warsaw"
-    ports:
-      - "1880:1880"
+      - TZ=Europe/Amsterdam
+      - DEBUG=NRCHKB:*
     volumes:
       - ${APP_DATA_DIR}/data:/data
