@@ -1,7 +1,7 @@
 version: '2'
 services:
-  node-red-homekit:
-    image: nrchkb/node-red-homekit
+  node-red:
+    image: nodered/node-red:latest
     restart: always
     network_mode: host
     ports:
