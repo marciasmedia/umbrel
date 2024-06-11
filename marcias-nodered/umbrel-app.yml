@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: marcias-nodered
-name: Nodered Standalone
-tagline: smart home automations
+name: Nodered
+tagline: best home automations
 icon: https://marcias.pl/umbrel/notepad.png
 category: marciasmedia
 version: "free"
