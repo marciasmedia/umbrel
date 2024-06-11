@@ -19,9 +19,9 @@ submission: https://github.com/usememos/memos
 repo: https://github.com/usememos/memos
 support: https://github.com/usememos/memos
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - http://marcias.pl/umbrel/nodered-gallery-1.jpg
+  - http://marcias.pl/umbrel/nodered-gallery-2.jpg
+  - http://marcias.pl/umbrel/nodered-gallery-3.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
