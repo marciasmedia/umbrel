@@ -12,12 +12,12 @@ description: >-
 
   You can also add newlines!
 
-developer: Marciasmedia
-website: https://umbrel.com
+developer: drjp81
+website: https://hub.docker.com/r/drjp81/nodered
 submitter: Umbrel
 submission: https://github.com/usememos/memos
-repo: https://github.com/usememos/memos
-support: https://github.com/usememos/memos
+repo: https://hub.docker.com/r/drjp81/nodered
+support: https://hub.docker.com/r/drjp81/nodered
 gallery:
   - http://marcias.pl/umbrel/nodered-gallery-1.jpg
   - http://marcias.pl/umbrel/nodered-gallery-2.jpg
