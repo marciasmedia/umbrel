@@ -5,7 +5,7 @@ tagline: server smart home
 icon: http://marcias.pl/umbrel/fusion.png
 category: marciasmedia
 version: "1.0.0"
-port: 5080
+port: 5580
 description: >-
   PRE-BETA
   The current state of this project is pre-beta. This means that there's basic functionality missing, incomplete features and unresolved issues. 
