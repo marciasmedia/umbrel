@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: marcias-nodered
-name: Nodered
-tagline: best home automations
+id: marcias-puter
+name: Web hosting 
+tagline: cloud interface
 icon: https://marcias.pl/umbrel/nodered.png
 category: marciasmedia
 version: "free"
-port: 1880
+port: 4100
 description: >-
   Add your app's description here.
 
