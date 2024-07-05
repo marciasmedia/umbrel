@@ -12,12 +12,12 @@ description: >-
 
   You can also add newlines!
 
-developer: drjp81
-website: https://hub.docker.com/r/drjp81/nodered
+developer: HeyPuter
+website: https://github.com/HeyPuter/puter
 submitter: Umbrel
-submission: https://github.com/usememos/memos
-repo: https://hub.docker.com/r/drjp81/nodered
-support: https://hub.docker.com/r/drjp81/nodered
+submission: https://github.com/HeyPuter/puter
+repo: https://github.com/HeyPuter/puter
+support: https://github.com/HeyPuter/puter
 gallery:
   - http://marcias.pl/umbrel/nodered-gallery-1.jpg
   - http://marcias.pl/umbrel/nodered-gallery-2.jpg
