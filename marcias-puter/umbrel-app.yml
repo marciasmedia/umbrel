@@ -5,7 +5,7 @@ tagline: hosting system web
 icon: https://marcias.pl/umbrel/fusion.png
 category: marciasmedia
 version: "free"
-port: 4000
+port: 4100
 description: >-
   Add your app's description here.
 
