@@ -12,13 +12,9 @@ services:
   app_proxy:
     environment:
       TZ: Europe/Warsaw
+      APP_HOST: marcias-hello-world_server_1
+      APP_PORT: 4100
 
     volumes:
       - ${APP_DATA_DIR}/puter/config:/etc/puter
       - ${APP_DATA_DIR}/puter/data:/var/puter
-    # healthcheck:
-     # test: wget --no-verbose --tries=1 --spider http://puter.localhost:4100/test || exit 1
-     # interval: 30s
-     # timeout: 3s
-     # retries: 3
-     # start_period: 30s
