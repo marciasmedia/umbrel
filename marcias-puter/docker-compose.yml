@@ -13,7 +13,6 @@ services:
     environment:
       TZ: Europe/Warsaw
       APP_HOST: marcias-puter_server_1
-      
     volumes:
       - ${APP_DATA_DIR}/puter/config:/etc/puter
       - ${APP_DATA_DIR}/puter/data:/var/puter
