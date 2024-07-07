@@ -11,8 +11,6 @@ services:
       - '4100:4100'
   app_proxy:
     environment:
-      APP_HOST: marcias-puter_server_1
-      APP_PORT: 4000
       TZ: Europe/Warsaw
 
     volumes:
