@@ -1,7 +1,7 @@
 version: "3"
 services:
   deconz:
-    image: deconzcommunity/deconz:stable
+    image: deconzcommunity/deconz:latest
     network_mode: host
     container_name: deconz
     restart: always
