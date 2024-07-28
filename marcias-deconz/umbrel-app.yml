@@ -1,7 +1,7 @@
 manifestVersion: 1
-id: marcias-conbee
+id: marcias-deconz
 name: Phoscon
-tagline: Zigbee Gateway
+tagline: Zigbee Gateway Conbee
 icon: https://marcias.pl/umbrel/conbee.png
 category: marciasmedia
 version: "free"
@@ -12,12 +12,12 @@ description: >-
 
   You can also add newlines!
 
-developer: Marciasmedia
-website: https://umbrel.com
-submitter: Umbrel
+developer: Dresden-Elektronik
+website: https://github.com/dresden-elektronik
+submitter: Deconz Community
 submission: https://github.com/Stirling-Tools/Stirling-PDF
-repo: https://github.com/Stirling-Tools/Stirling-PDF
-support: https://github.com/Stirling-Tools/Stirling-PDF
+repo: https://github.com/deconz-community/deconz-docker#readme
+support: https://github.com/deconz-community/deconz-docker#readme
 gallery:
   - https://marcias.pl/umbrel/stirling_pdf-1.jpg
   - https://marcias.pl/umbrel/stirling_pdf-2.jpg
