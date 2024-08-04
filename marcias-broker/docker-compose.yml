@@ -12,7 +12,7 @@ services:
        - "1883:1883"
        - "9001:9001"
     volumes:
-      - ${APP_DATA_DIR}/config/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ${APP_DATA_DIR}/mosquitto/config:/mosquitto/config/mosquitto.conf
       - ${APP_DATA_DIR}/mosquitto/data:/mosquitto/data
       - ${APP_DATA_DIR}/mosquitto/log:/mosquitto/log
     security_opt:
