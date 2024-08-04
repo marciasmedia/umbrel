@@ -1,23 +1,23 @@
 manifestVersion: 1
-id: marcias-puter
-name: Web System
-tagline: hosting system web
+id: marcias-broker
+name: Mosquitto Eclipse
+tagline: Broker Mqtt
 icon: https://marcias.pl/umbrel/fusion.png
 category: marciasmedia
 version: "free"
-port: 4100
+port: 9001
 description: >-
   Add your app's description here.
 
 
   You can also add newlines!
 
-developer: Puter
-website: https://github.com/HeyPuter/puter
-submitter: Umbrel
+developer: JimsGarage
+website: https://github.com/JamesTurland/JimsGarage/blob/main/Mosquitto/docker-compose.yaml
+submitter: JimsGarage
 submission: https://github.com/HeyPuter/puter
-repo: https://github.com/HeyPuter/puter
-support: https://github.com/HeyPuter/puter
+repo: https://github.com/JamesTurland/JimsGarage/blob/main/Mosquitto/docker-compose.yaml
+support: https://github.com/JamesTurland/JimsGarage/blob/main/Mosquitto/docker-compose.yaml
 gallery:
   - http://marcias.pl/umbrel/nodered-gallery-1.jpg
   - http://marcias.pl/umbrel/nodered-gallery-2.jpg
