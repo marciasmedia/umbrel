@@ -5,7 +5,9 @@ tagline: Broker Mqtt
 icon: https://marcias.pl/umbrel/fusion.png
 category: marciasmedia
 version: "free"
-port: 9001
+ports:
+  - "1883:1883"   # Port MQTT
+  - "9001:9001"   # Port WebSocket
 description: >-
   Add your app's description here.
 
