@@ -3,8 +3,8 @@ services:
     image: swingmusic
     container_name: swingmusic
     volumes:
-      - /path/to/music:/music
-      - /path/to/config:/config
+      - ${APP_DATA_DIR}/music:/music
+      - ${APP_DATA_DIR}/config:/config
     ports:
       - "1970:1970"
     restart: unless-stopped
