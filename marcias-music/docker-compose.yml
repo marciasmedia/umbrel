@@ -1,7 +1,7 @@
 version: "3"
 services:
   swingmusic:
-    image: swingmusic
+    image: ghcr.io/swingmx/swingmusic:latest
     container_name: swingmusic
     volumes:
       - ${APP_DATA_DIR}/music:/music
