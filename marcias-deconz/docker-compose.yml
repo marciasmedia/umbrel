@@ -1,37 +1,17 @@
-version: "3"
+version: '3.8'
 services:
-  deconz:
-    image: deconzcommunity/deconz:latest
-    network_mode: host
-    container_name: deconz
-    restart: always
-    privileged: true # This is important! Without it, the deCONZ image won't be able to connect to Conbee II.
-    ports:
-      - 580:580
-      - 5443:5443
-    volumes:
-      - ${APP_DATA_DIR}/opt/deCONZ:/opt/deCONZ
-    devices:
-      - /dev/ttyUSB0 # This is the USB device that Conbee II is running on.
-    environment:
-      - TZ=Europe/Warsaw
-      - DECONZ_WEB_PORT=580
-      - DECONZ_WS_PORT=5443
-      - DEBUG_INFO=1
-      - DEBUG_APS=0
-      - DEBUG_ZCL=0
-      - DEBUG_ZDP=0
-      - DEBUG_OTA=0
-      - DEBUG_HTTP=0
-      - DECONZ_DEVICE=/dev/ttyUSB0
-      - DECONZ_VNC_MODE=1
-      - DECONZ_VNC_PORT=5900
-      - DECONZ_VNC_PASSWORD=changeme
-      - DECONZ_UID=1000
-      - DECONZ_GID=1000
-      - DECONZ_START_VERBOSE=0
-      - DECONZ_BAUDRATE=115200
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "50m"
+    zigbee2mqtt:
+        container_name: zigbee2mqtt
+        image: koenkk/zigbee2mqtt
+        restart: unless-stopped
+        volumes:
+            - ./data:/app/data
+            - /run/udev:/run/udev:ro
+        ports:
+            # Frontend port
+            - 8080:8080
+        environment:
+            - TZ=Europe/Berlin
+        devices:
+            # Make sure this matched your adapter location
+            - /dev/serial/by-id/usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B0018ED3DDF-if00:/dev/ttyACM0
