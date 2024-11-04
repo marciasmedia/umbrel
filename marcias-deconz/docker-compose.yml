@@ -1,18 +1,14 @@
-version: '3.8'
+version: '3'
 services:
     zigbee2mqtt:
         container_name: zigbee2mqtt
         image: koenkk/zigbee2mqtt
-        restart: unless-stopped
         volumes:
-            - ${APP_DATA_DIR}/data:/app/data
-            - ${APP_DATA_DIR}/udev:/run/udev:ro
-        ports:
-            # Frontend port
-            - 8082:8080
-        environment:
-            - TZ=Europe/Warsaw
+            - ./data:/app/data
         devices:
-            # Make sure this matched your adapter location
-            - port: tcp://10.0.1.16:6638
-            - adapter: ember
+            # CC251
+            #- /dev/ttyUSB_cc2531:/dev/ttyACM0
+            # CC2530 / GBAN GB2530S
+            #- /dev/ttyUSB_cc2530:/dev/ttyACM0
+        restart: always
+        network_mode: host
