@@ -5,7 +5,7 @@ tagline: Zigbee Gateway Conbee
 icon: https://marcias.pl/umbrel/conbee.png
 category: marciasmedia
 version: "free"
-port: 580
+port: 8082
 description: >-
   Add your app's description here.
 
