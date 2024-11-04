@@ -11,7 +11,7 @@ services:
             # Frontend port
             - 8080:8080
         environment:
-            - TZ=Europe/Berlin
+            - TZ=Europe/Warsaw
         devices:
             # Make sure this matched your adapter location
             - /dev/serial/by-id/usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B0018ED3DDF-if00:/dev/ttyACM0
